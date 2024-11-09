@@ -1135,8 +1135,8 @@ class Rocket:
             Nose cone length or height in meters. Must be a positive
             value.
         kind : string
-            Nose cone type. Von Karman, conical, ogive, lvhaack and
-            powerseries are supported.
+            Nose cone kind. Can be "conical", "ogive", "elliptical", "tangent",
+            "von karman", "parabolic", "powerseries" or "lvhaack".
         position : int, float
             Nose cone tip coordinate relative to the rocket's coordinate system.
             See `Rocket.coordinate_system_orientation` for more information.
